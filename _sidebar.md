@@ -1,0 +1,39 @@
+* **0.申请Key**
+    * [获取应用appid](apply/createapp.md)
+* **1.集成使用**
+    * [1.1集成SDK](integration/integration.md)
+    * [1.2初始化配置](integration/config.md)
+* **2.支付相关接口定义**
+    * [2.1银行卡支付模式一](pay/bankpay.md)
+    * [2.2银行卡支付模式二](pay/bankpay2.md)
+* **3.支付状态查询**
+    * [3.1扫码付(用户被扫)订单状态查询](payquery/scanquery.md)
+    * [3.2扫码付(用户主扫)订单状态查询](payquery/scanqueryinitiative)
+    * [3.3银行卡订单状态查询](payquery/bankquery.md)
+* **4.交易撤销**
+    * [4.1扫码付撤销](revoke/scanrevoke.md)
+    * [4.2银行卡撤销](revoke/bankrevoke.md)
+* **5.交易退款**
+    * [5.1扫码付退款](refund/scanrefund.md)
+    * [5.2银行卡退款](refund/bankrefund.md)
+* **6.撤销或退款状态查询**
+    * [6.1扫码付退款状态查询](refundquery/refundquery.md)
+* **7.预授权**
+    * [7.1预授权](authorization/cardauth.md)
+    * [7.2预授权撤销](authorization/cardauthrever.md)
+    * [7.3预授权完成（有卡）](authorization/creditpreauthdone.md)
+    * [7.4预授权完成（无卡）](authorization/preauthdone.md)
+    * [7.5预授权完成撤销](authorization/cardauthdonerever.md)
+    * [7.6预授权订单状态查询【暂不可用】](authorization/cardauthquery.md)
+* **8.打印小票**
+    * [8打印小票](print/print.md)
+* **9.获取商户和终端信息**
+    * [9.1获取商户信息](merinfo/merinfo.md)
+    * [9.2获取终端信息](posinfo/posinfo.md)
+* **10.数据清除**
+    * [10.1清除POS参数](clean/cleanparam.md)
+    * [10.2清除密钥信息](clean/cleankey.md)
+* **11.查询**
+    * [11.1银行卡余额查询](query/querybalance.md)
+* **12.异常处理**
+    * [12.1应用占用](exception/exception.md)
